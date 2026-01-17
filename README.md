@@ -2,10 +2,11 @@
 An opensource toolbox of 60 automations for Windows Server that streamlines website updates and ensures robust cybersecurity.
 
 
-**Overview:**
+## Overview:
 The Windows Server Framework is a free and opensource Windows PowerShell module that automates the most common website maintenance tasks. 
 
 What is especially helpful is these commands are presented in an ordered sequence within the **WSF main menu**. The main menu shows which **system menus** are supported. Once a system menu is selected, it presents a step-by-step guide which teaches users how to use each automation and ensure the maintenance process is successful.
+
 
 Compatible with all Windows Servers versions 2012 or newer.
 
@@ -15,10 +16,9 @@ The following systems are supported:
 * SSL renewals for Internet Information Services
 * SQL Server
 * Microsoft Azure deployment
-
 ⠀
 
-**Benefits:**
+## Benefits:
 * **Save time** - turn multihour workflows and hundreds of mouse clicks, into automated processes that can be finished in half the time
 
 * **Ensure system stability** - the step-by-step process of each automation guarantees all Windows administrators on your team, complete the same verified process
@@ -27,19 +27,24 @@ The following systems are supported:
 
 ⠀
 
-**How to install:**
+## How to install:
 1. Download or clone the **wsf.ps1** file, which is the main executable containing the PowerShell commands
-2. Enable the script, by enabling the execution policy. Here is the most secure method for one-time enablement: *==🔴powershell.exe -ExecutionPolicy Bypass -File "C:\path\to\wsf.ps1"==*
+2. Enable the script, by enabling the execution policy. Here is the most secure method for one-time enablement: 
+
+```
+powershell.exe -ExecutionPolicy Bypass -File "C:\path\to\wsf.ps1"
+```
+
 3. Enter **wsf** in a PowerShell window to activate the WSF Main Menu, which will ask you for which system menu. Enter the corresponding number in the terminal.
 4. The system menu will then show the step-by-step process for each automation.
 
 ⠀
-**Customization:**
+## Customization:
 The Windows Server Framework has a **config** hashtable, which can be customized for your organization. It allows you to change global settings for the automation. These include: documentation links, databases to update and other settings.
 
 
 
-**All commands supported:**
+## All commands supported:
 
 * Windows Server update
   * Stop services
@@ -82,5 +87,18 @@ The Windows Server Framework has a **config** hashtable, which can be customized
 ⠀
 * Microsoft Azure deployment
   * In development
+
+⠀
+
+## Created by:
+Benyam Alemu Sood and Jigyasaa Alemu Sood, 2026.
+The Windows Server Framework is a free and opensource library distributed under the MIT License. You may use the source code for free in any of our personal and commercial libraries.
+If you would like to, you may create any articles, tutorials or videos describing any component of this library.
+The Windows Server Framework will always be free to use and openly available.
+
+
+## Collaboration:
+We are in active development. We welcome collaboration.
+Feel free to send any pull requests or proposed changes to our codebase. Submit your ideas and code improvements.
 
 
